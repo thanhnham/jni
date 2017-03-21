@@ -8,6 +8,6 @@ public class TestJNIPrimitive {
  
    // Test Driver
    public static void main(String args[]) {
-      System.out.println("In Java, the average is " + new TestJNIPrimitive().average(3, 2));
+      System.out.println("In Java VM, the average is " + new TestJNIPrimitive().average(3, 2));
    }
 }
