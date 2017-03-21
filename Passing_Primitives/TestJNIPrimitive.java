@@ -1,6 +1,6 @@
 public class TestJNIPrimitive {
    static {
-      System.loadLibrary("myjni"); // myjni.dll (Windows) or libmyjni.so (Unixes)
+      System.loadLibrary("myjni1"); // myjni.dll (Windows) or libmyjni.so (Unixes)
    }
  
    // Declare a native method average() that receives two ints and return a double containing the average
